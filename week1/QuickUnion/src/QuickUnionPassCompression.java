@@ -1,5 +1,6 @@
 /**
- * Created by lixunrong on 2/13/15.
+ * Quick Union with Pass Compression Implementation
+ * Created by lixunrong on 2/8/15.
  */
 
 public class QuickUnionPassCompression {
@@ -15,8 +16,27 @@ public class QuickUnionPassCompression {
         }
     }
 
+    public static void main(String[] args) {
+        int N = StdIn.readInt();
+        QuickUnionPassCompression uf = new QuickUnionPassCompression(N);
+        while (!StdIn.isEmpty()) {
+
+            int p = StdIn.readInt();
+            int q = StdIn.readInt();
+            if (uf.connected(p, q)) continue;
+            uf.union(p, q);
+            StdOut.print(p + "-" + q + '\t');
+
+            for (int i = 0; i < N; i++) {
+                StdOut.print(uf.id[i] + " ");
+            }
+            StdOut.println();
+        }
+    }
+
     public int root(int p){
         validate(p);
+        /*
         int proot = p;
         while (proot != id[proot]){
             proot = id[proot];
@@ -27,6 +47,12 @@ public class QuickUnionPassCompression {
             id[tmp] = proot;
         }
         return proot;
+        */
+        while (p != id[p]) {
+            id[p] = id[id[p]];
+            p = id[p];
+        }
+        return p;
     }
 
     public boolean connected(int p, int q){
@@ -43,23 +69,6 @@ public class QuickUnionPassCompression {
         int N  = id.length;
         if(p < 0 || p >= N){
             throw new IndexOutOfBoundsException("Your input is not between 0 and " + N);
-        }
-    }
-
-    public static void main(String[] args) {
-        int N = StdIn.readInt();
-        QuickUnionPassCompression uf = new QuickUnionPassCompression(N);
-        while (!StdIn.isEmpty()) {
-
-            int p = StdIn.readInt();
-            int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
-            uf.union(p, q);
-            StdOut.println(p + "-" + q + '\t');
-
-            for (int i = 0; i < N; i++) {
-                StdOut.print(uf.id[i] + " ");
-            }
         }
     }
 }

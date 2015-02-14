@@ -1,5 +1,6 @@
 /**
- * Created by lixunrong on 2/13/15.
+ * Quick Union Implementation
+ * Created by lixunrong on 2/8/15.
  */
 public class QuickUnion {
     private int[] id;
@@ -11,7 +12,26 @@ public class QuickUnion {
         }
     }
 
+    public static void main(String[] args) {
+        int N = StdIn.readInt();
+        QuickUnion uf = new QuickUnion(N);
+        while (!StdIn.isEmpty()) {
+
+            int p = StdIn.readInt();
+            int q = StdIn.readInt();
+            if (uf.connected(p, q)) continue;
+            uf.union(p, q);
+            StdOut.print(p + "-" + q + '\t');
+
+            for (int i = 0; i < N; i++) {
+                StdOut.print(uf.id[i] + " ");
+            }
+            StdOut.println();
+        }
+    }
+
     public int root(int p){
+        validate(p);
         while (id[p] != p){
             p = id[p];
         }
@@ -33,23 +53,6 @@ public class QuickUnion {
         int N  = id.length;
         if(p < 0 || p >= N){
             throw new IndexOutOfBoundsException("Your input is not between 0 and " + N);
-        }
-    }
-
-    public static void main(String[] args) {
-        int N = StdIn.readInt();
-        QuickUnion uf = new QuickUnion(N);
-        while (!StdIn.isEmpty()) {
-
-            int p = StdIn.readInt();
-            int q = StdIn.readInt();
-            if (uf.connected(p, q)) continue;
-            uf.union(p, q);
-            StdOut.println(p + "-" + q + '\t');
-
-            for (int i = 0; i < N; i++) {
-                StdOut.print(uf.id[i] + " ");
-            }
         }
     }
 }
