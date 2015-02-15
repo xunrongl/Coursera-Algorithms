@@ -2,17 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fd7d5817-3db8-4774-a4ef-5062f29f3613" name="Default" comment="Modify output format &amp; halving path length">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QuickUnion/QuickFind.class" afterPath="$PROJECT_DIR$/out/production/QuickUnion/QuickFind.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QuickUnion/QuickUnion.class" afterPath="$PROJECT_DIR$/out/production/QuickUnion/QuickUnion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QuickUnion/QuickUnionPassCompression.class" afterPath="$PROJECT_DIR$/out/production/QuickUnion/QuickUnionPassCompression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QuickUnion/WeightedQuickUionPassCompression.class" afterPath="$PROJECT_DIR$/out/production/QuickUnion/WeightedQuickUionPassCompression.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/QuickUnion/WeightedQuickUnion.class" afterPath="$PROJECT_DIR$/out/production/QuickUnion/WeightedQuickUnion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuickFind.java" afterPath="$PROJECT_DIR$/src/QuickFind.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuickUnion.java" afterPath="$PROJECT_DIR$/src/QuickUnion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/QuickUnionPassCompression.java" afterPath="$PROJECT_DIR$/src/QuickUnionPassCompression.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WeightedQuickUionPassCompression.java" afterPath="$PROJECT_DIR$/src/WeightedQuickUionPassCompression.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/WeightedQuickUnion.java" afterPath="$PROJECT_DIR$/src/WeightedQuickUnion.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="QuickUnion.iws" />
@@ -45,8 +34,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="990">
               <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
               <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#294#295#0" expanded="true" />
+                <element signature="e#747#748#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +47,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
               <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
               <folding>
-                <element signature="e#431#432#0" expanded="true" />
-                <element signature="e#468#469#0" expanded="true" />
+                <element signature="e#781#782#0" expanded="true" />
+                <element signature="e#887#888#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -71,8 +60,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
               <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
               <folding>
-                <element signature="e#558#559#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
+                <element signature="e#898#899#0" expanded="true" />
+                <element signature="e#1030#1031#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -84,8 +73,8 @@
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
               <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
               <folding>
-                <element signature="e#741#742#0" expanded="true" />
-                <element signature="e#782#783#0" expanded="true" />
+                <element signature="e#977#978#0" expanded="true" />
+                <element signature="e#1241#1242#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -94,11 +83,11 @@
       <file leaf-file-name="QuickUnionPassCompression.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/QuickUnionPassCompression.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.42391303" vertical-offset="0" max-vertical-offset="1200">
+            <state vertical-scroll-proportion="-1.1847826" vertical-offset="740" max-vertical-offset="1200">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding>
-                <element signature="e#851#852#0" expanded="true" />
-                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#1383#1384#0" expanded="true" />
+                <element signature="e#1424#1425#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -527,12 +516,19 @@
       <created>1423862297472</created>
       <option name="number" value="Default" />
       <updated>1423862297472</updated>
-      <workItem from="1423862300992" duration="8334000" />
+      <workItem from="1423862300992" duration="8906000" />
     </task>
+    <task id="LOCAL-00001" summary="Modify output format &amp; halving path length">
+      <created>1423950053015</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1423950053015</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8334000" />
+    <option name="totallyTimeSpent" value="8906000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -579,11 +575,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Modify output format &amp; halving path length" />
     <option name="LAST_COMMIT_MESSAGE" value="Modify output format &amp; halving path length" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -609,8 +608,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
           <caret line="1" column="60" selection-start-line="1" selection-start-column="60" selection-end-line="1" selection-end-column="60" />
           <folding>
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#782#783#0" expanded="true" />
+            <element signature="e#977#978#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -620,8 +619,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1125">
           <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
           <folding>
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
+            <element signature="e#898#899#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -631,8 +630,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="960">
           <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
           <folding>
-            <element signature="e#431#432#0" expanded="true" />
-            <element signature="e#468#469#0" expanded="true" />
+            <element signature="e#781#782#0" expanded="true" />
+            <element signature="e#887#888#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -642,19 +641,19 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="12" max-vertical-offset="990">
           <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
           <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#747#748#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/QuickUnionPassCompression.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42391303" vertical-offset="0" max-vertical-offset="1200">
+        <state vertical-scroll-proportion="-1.1847826" vertical-offset="740" max-vertical-offset="1200">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
-            <element signature="e#851#852#0" expanded="true" />
-            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#1383#1384#0" expanded="true" />
+            <element signature="e#1424#1425#0" expanded="true" />
           </folding>
         </state>
       </provider>
