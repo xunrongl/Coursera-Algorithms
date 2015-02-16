@@ -1,3 +1,5 @@
+import java.util.NoSuchElementException;
+
 /**
  * Array implementation
  * Created by lixunrong on 2/15/15.
@@ -23,6 +25,7 @@ public class StackOfStringArray {
 
     //avoid loitering using garbage collector
     public String pop() {
+
         String item = array[--N];
         array[N] = null;
         return item;

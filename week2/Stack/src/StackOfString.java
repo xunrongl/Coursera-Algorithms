@@ -1,3 +1,4 @@
+import java.util.NoSuchElementException;
 import java.util.Stack;
 
 /**
@@ -11,7 +12,7 @@ public class StackOfString {
         Node next;
     }
 
-    private Node first = null;
+    private Node first = null; //top of stack
 
     public StackOfString(){
 
@@ -26,6 +27,8 @@ public class StackOfString {
     }
 
     public String pop(){
+        if (isEmpty())
+            throw new NoSuchElementException("Stack Overflow");
         String item = first.item;
         first = first.next;
         return item;
