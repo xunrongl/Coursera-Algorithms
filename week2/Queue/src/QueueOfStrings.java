@@ -1,4 +1,5 @@
 /**
+ * Linked-list Queue of String implementation
  * Created by lixunrong on 2/15/15.
  */
 public class QueueOfStrings {
@@ -7,13 +8,8 @@ public class QueueOfStrings {
         String item;
         Node next;
     }
-    private Node first = null;
-    private Node last = null;
-
-    public QueueOfStrings(){
-        first = new Node();
-        last = new Node();
-    }
+    private Node first;
+    private Node last;
 
     public boolean isEmpty(){
         return first == null;
@@ -23,7 +19,6 @@ public class QueueOfStrings {
         String item = first.item;
         first = first.next;
         if (isEmpty())
-
             last = null;
         return item;
     }
